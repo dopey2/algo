@@ -1,6 +1,5 @@
 
 
-
 const _arr = [9, 8, 7, 6, 5, 4, 3, 2, 1];
 
 
@@ -29,6 +28,7 @@ function merge(arr1, arr2){
             result.push(arr1[0]);
             arr1.splice(0, 1);
         }
+
         else {
             result.push(arr2[0]);
             arr2.splice(0, 1)
@@ -39,5 +39,3 @@ function merge(arr1, arr2){
 }
 
 module.exports = merge_sort;
-
-const aa = merge_sort(_arr);
